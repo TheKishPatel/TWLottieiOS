@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		027BFD434996B6F931C3C66A /* Pods_AELottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34529773C9F37AA8AE1E1DFD /* Pods_AELottie.framework */; };
+		25BAE33AF032E657A152F578 /* Pods_AELottieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A75E11B94A19EB4D1F0D72 /* Pods_AELottieUITests.framework */; };
+		91F053C8E4635EF76BAF9573 /* Pods_AELottieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B90C8C80C9C00F5B2619EA /* Pods_AELottieTests.framework */; };
 		D2171E141E577D1200AAA5F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2171E131E577D1200AAA5F8 /* AppDelegate.swift */; };
 		D2171E161E577D1200AAA5F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2171E151E577D1200AAA5F8 /* ViewController.swift */; };
 		D2171E191E577D1200AAA5F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2171E171E577D1200AAA5F8 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		D2171E1E1E577D1200AAA5F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2171E1C1E577D1200AAA5F8 /* LaunchScreen.storyboard */; };
 		D2171E291E577D1200AAA5F8 /* AELottieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2171E281E577D1200AAA5F8 /* AELottieTests.swift */; };
 		D2171E341E577D1200AAA5F8 /* AELottieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2171E331E577D1200AAA5F8 /* AELottieUITests.swift */; };
+		D21E19B91E5799AF0052A5F0 /* AnimationSpinnerUncropped.json in Resources */ = {isa = PBXBuildFile; fileRef = D21E19B81E5799AF0052A5F0 /* AnimationSpinnerUncropped.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03942F8530295C9D4515ABAD /* Pods-AELottie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AELottie.release.xcconfig"; path = "Pods/Target Support Files/Pods-AELottie/Pods-AELottie.release.xcconfig"; sourceTree = "<group>"; };
+		06B90C8C80C9C00F5B2619EA /* Pods_AELottieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AELottieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D883EE2FA910F66FC4CE9BE /* Pods-AELottieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AELottieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AELottieTests/Pods-AELottieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34529773C9F37AA8AE1E1DFD /* Pods_AELottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AELottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54380D294AB067D240F1D9B9 /* Pods-AELottieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AELottieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AELottieUITests/Pods-AELottieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5D8C72EF7E4608C816924B5 /* Pods-AELottieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AELottieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AELottieTests/Pods-AELottieTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE10643B5A87F061FFC1E115 /* Pods-AELottieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AELottieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AELottieUITests/Pods-AELottieUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D2171E101E577D1200AAA5F8 /* AELottie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AELottie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2171E131E577D1200AAA5F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2171E151E577D1200AAA5F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		D2171E2F1E577D1200AAA5F8 /* AELottieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AELottieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2171E331E577D1200AAA5F8 /* AELottieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AELottieUITests.swift; sourceTree = "<group>"; };
 		D2171E351E577D1200AAA5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D21E19B81E5799AF0052A5F0 /* AnimationSpinnerUncropped.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AnimationSpinnerUncropped.json; sourceTree = "<group>"; };
+		E4F263CCE47C48A7882CD7B9 /* Pods-AELottie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AELottie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AELottie/Pods-AELottie.debug.xcconfig"; sourceTree = "<group>"; };
+		F5A75E11B94A19EB4D1F0D72 /* Pods_AELottieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AELottieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027BFD434996B6F931C3C66A /* Pods_AELottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F053C8E4635EF76BAF9573 /* Pods_AELottieTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BAE33AF032E657A152F578 /* Pods_AELottieUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25AE8F1D04D82D7A4EFBFEAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4F263CCE47C48A7882CD7B9 /* Pods-AELottie.debug.xcconfig */,
+				03942F8530295C9D4515ABAD /* Pods-AELottie.release.xcconfig */,
+				2D883EE2FA910F66FC4CE9BE /* Pods-AELottieTests.debug.xcconfig */,
+				B5D8C72EF7E4608C816924B5 /* Pods-AELottieTests.release.xcconfig */,
+				54380D294AB067D240F1D9B9 /* Pods-AELottieUITests.debug.xcconfig */,
+				BE10643B5A87F061FFC1E115 /* Pods-AELottieUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C92BE589B12E2758AB5C825A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34529773C9F37AA8AE1E1DFD /* Pods_AELottie.framework */,
+				06B90C8C80C9C00F5B2619EA /* Pods_AELottieTests.framework */,
+				F5A75E11B94A19EB4D1F0D72 /* Pods_AELottieUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2171E071E577D1200AAA5F8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				D2171E271E577D1200AAA5F8 /* AELottieTests */,
 				D2171E321E577D1200AAA5F8 /* AELottieUITests */,
 				D2171E111E577D1200AAA5F8 /* Products */,
+				25AE8F1D04D82D7A4EFBFEAC /* Pods */,
+				C92BE589B12E2758AB5C825A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +139,7 @@
 		D2171E121E577D1200AAA5F8 /* AELottie */ = {
 			isa = PBXGroup;
 			children = (
+				D21E19B81E5799AF0052A5F0 /* AnimationSpinnerUncropped.json */,
 				D2171E131E577D1200AAA5F8 /* AppDelegate.swift */,
 				D2171E151E577D1200AAA5F8 /* ViewController.swift */,
 				D2171E171E577D1200AAA5F8 /* Main.storyboard */,
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2171E381E577D1200AAA5F8 /* Build configuration list for PBXNativeTarget "AELottie" */;
 			buildPhases = (
+				5E9E3B9E4ED9135616F14092 /* [CP] Check Pods Manifest.lock */,
 				D2171E0C1E577D1200AAA5F8 /* Sources */,
 				D2171E0D1E577D1200AAA5F8 /* Frameworks */,
 				D2171E0E1E577D1200AAA5F8 /* Resources */,
+				0995233DEFA58102648D74A6 /* [CP] Embed Pods Frameworks */,
+				739B1ADEAB6F8409C9258FD0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2171E3B1E577D1200AAA5F8 /* Build configuration list for PBXNativeTarget "AELottieTests" */;
 			buildPhases = (
+				0AE583A3AA3C172698820C91 /* [CP] Check Pods Manifest.lock */,
 				D2171E201E577D1200AAA5F8 /* Sources */,
 				D2171E211E577D1200AAA5F8 /* Frameworks */,
 				D2171E221E577D1200AAA5F8 /* Resources */,
+				26212634BA2AE005455189FB /* [CP] Embed Pods Frameworks */,
+				5B73CB94CDD1416BE9E5BCC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2171E3E1E577D1200AAA5F8 /* Build configuration list for PBXNativeTarget "AELottieUITests" */;
 			buildPhases = (
+				07F8E25D8F11461A96F16891 /* [CP] Check Pods Manifest.lock */,
 				D2171E2B1E577D1200AAA5F8 /* Sources */,
 				D2171E2C1E577D1200AAA5F8 /* Frameworks */,
 				D2171E2D1E577D1200AAA5F8 /* Resources */,
+				4145D11D17520F1F61BE7EEE /* [CP] Embed Pods Frameworks */,
+				77DA33B0310D35017679D5B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +289,7 @@
 			files = (
 				D2171E1E1E577D1200AAA5F8 /* LaunchScreen.storyboard in Resources */,
 				D2171E1B1E577D1200AAA5F8 /* Assets.xcassets in Resources */,
+				D21E19B91E5799AF0052A5F0 /* AnimationSpinnerUncropped.json in Resources */,
 				D2171E191E577D1200AAA5F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +309,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07F8E25D8F11461A96F16891 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0995233DEFA58102648D74A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AELottie/Pods-AELottie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AE583A3AA3C172698820C91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26212634BA2AE005455189FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AELottieTests/Pods-AELottieTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4145D11D17520F1F61BE7EEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AELottieUITests/Pods-AELottieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B73CB94CDD1416BE9E5BCC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AELottieTests/Pods-AELottieTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9E3B9E4ED9135616F14092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		739B1ADEAB6F8409C9258FD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AELottie/Pods-AELottie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77DA33B0310D35017679D5B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AELottieUITests/Pods-AELottieUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2171E0C1E577D1200AAA5F8 /* Sources */ = {
@@ -413,6 +604,7 @@
 		};
 		D2171E391E577D1200AAA5F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F263CCE47C48A7882CD7B9 /* Pods-AELottie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6RU43L6VY5;
@@ -426,6 +618,7 @@
 		};
 		D2171E3A1E577D1200AAA5F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03942F8530295C9D4515ABAD /* Pods-AELottie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6RU43L6VY5;
@@ -439,6 +632,7 @@
 		};
 		D2171E3C1E577D1200AAA5F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D883EE2FA910F66FC4CE9BE /* Pods-AELottieTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +648,7 @@
 		};
 		D2171E3D1E577D1200AAA5F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D8C72EF7E4608C816924B5 /* Pods-AELottieTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +664,7 @@
 		};
 		D2171E3F1E577D1200AAA5F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54380D294AB067D240F1D9B9 /* Pods-AELottieUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6RU43L6VY5;
@@ -483,6 +679,7 @@
 		};
 		D2171E401E577D1200AAA5F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE10643B5A87F061FFC1E115 /* Pods-AELottieUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6RU43L6VY5;
@@ -514,6 +711,7 @@
 				D2171E3A1E577D1200AAA5F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2171E3B1E577D1200AAA5F8 /* Build configuration list for PBXNativeTarget "AELottieTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +720,7 @@
 				D2171E3D1E577D1200AAA5F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2171E3E1E577D1200AAA5F8 /* Build configuration list for PBXNativeTarget "AELottieUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +729,7 @@
 				D2171E401E577D1200AAA5F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
